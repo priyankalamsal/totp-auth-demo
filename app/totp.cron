@@ -1,0 +1,6 @@
+# Every minute generate TOTP
+* * * * * /app/app/cron_job.sh >> /cron/cron.log 2>&1
+
+# Every day at 00:00 UTC backup seed
+0 0 * * * /app/app/backup_seed.sh >> /cron/backup.log 2>&1
+
