@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Secrets
+encrypted_seed.txt
+
+# Local only
+request_seed.py
+
